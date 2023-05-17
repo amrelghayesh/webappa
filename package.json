@@ -1,0 +1,35 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "mix",
+        "watch": "webpack --watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production",
+        "build": "webpack --mode=production --node-env=production",
+        "build:dev": "webpack --mode=development",
+        "build:prod": "webpack --mode=production --node-env=production",
+        "serve": "webpack serve"
+    },
+    "devDependencies": {
+        "@tailwindcss/forms": "^0.5.2",
+        "@tailwindcss/typography": "^0.5.0",
+        "@webpack-cli/generators": "^3.0.1",
+        "alpinejs": "^3.0.6",
+        "autoprefixer": "^10.4.7",
+        "axios": "^0.21",
+        "html-webpack-plugin": "^5.5.0",
+        "laravel-mix": "^6.0.6",
+        "lodash": "^4.17.19",
+        "postcss": "^8.4.14",
+        "tailwindcss": "^3.1.0"
+    },
+    "version": "1.0.0",
+    "description": "My webpack project",
+    "name": "my-webpack-project",
+    "dependencies": {
+        "vue": "^3.2.45"
+    }
+}
